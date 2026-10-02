@@ -19,6 +19,23 @@
     color: white;
     border: none;
 }
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+.text-center {
+    text-align: center;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+}
 
 .text-primary {
     color: #FD6E0A;
@@ -28,6 +45,9 @@
     color: #474747;
 }
 
+.dark-3 {
+    color: #757575;
+}
 header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
@@ -88,4 +108,77 @@ nav ul a {
 
 .banner-profile-pic {
     width: 580px;
+}
+
+/* main style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* About style */
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.item-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.item-description {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Skill-container-style---------- */
+
+.skills-container {
+    display: flex;
+    gap: 20px;
+}
+
+.skill {
+    padding: 30px;
+box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+
+/* resume-----style */
+
+.resume-container {
+    display: flex;
+    gap: 25px;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.experience .experience-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.experience .experience-sub-title {
+    font-size: 20px;
+    font-weight: 400;
 }
