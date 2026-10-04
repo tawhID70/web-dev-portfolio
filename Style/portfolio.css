@@ -28,8 +28,8 @@
 
 .section-title {
     font-weight: bold;
-    font-size: 35px;
     color: #181818;
+    font-size: 35px;
 }
 
 .section-description {
@@ -89,21 +89,33 @@ nav ul a {
 .banner {
     display: flex;
     justify-content: space-between;
+    width: `;
 }
 
 .banner-content {
-    margin: 0 39px 0 200px;
+    margin: 100px 39px 0 200px;
 }
 
 .banner-greetings {
     font-size: 45px;
     font-weight: 600;
-
+    margin: 0;
+    padding: 0;
 }
 
 .banner-title {
     font-size: 85px;
     font-weight: bold;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.banner-description {
+    font-size: 18px;
+    color: #474747;
+    width: 585px;
+    margin-bottom: 30px;
+
 }
 
 .banner-profile-pic {
@@ -181,4 +193,44 @@ box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
 .experience .experience-sub-title {
     font-size: 20px;
     font-weight: 400;
+}
+
+.resume-download-btn {
+    text-align: center;
+    margin-top: 50px;
+
+}
+    /* footer style--------- */
+
+
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column {
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type=email] {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 15px 0px;
+    font-size: 20px;
+    margin: 24px;
+    border: none;
+}
+
+footer textarea {
+    padding: 18px 0px;
+    width: 100%;
+    margin: 24px;
+    font-size: 20px;
+}
+
+footer input[value="submit"] {
+    margin: 24px;
 }
